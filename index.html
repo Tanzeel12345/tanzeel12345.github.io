@@ -1,0 +1,433 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="Md Tanzeel Atahar - Data Engineer specializing in Snowflake, SQL, Python and cloud data migration.">
+<title>Md Tanzeel Atahar | Data Engineer</title>
+
+<style>
+:root {
+  --bg: #081321;
+  --card: #122238;
+  --card2: #192d45;
+  --text: #f2f7ff;
+  --muted: #a8b8ca;
+  --accent: #43dfc7;
+  --border: rgba(255,255,255,.1);
+}
+
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior:smooth; }
+
+body {
+  font-family:Arial,sans-serif;
+  background:var(--bg);
+  color:var(--text);
+  line-height:1.7;
+}
+
+a { color:inherit; text-decoration:none; }
+
+.container {
+  width:90%;
+  max-width:1100px;
+  margin:auto;
+}
+
+header {
+  position:sticky;
+  top:0;
+  z-index:10;
+  background:rgba(8,19,33,.96);
+  border-bottom:1px solid var(--border);
+}
+
+nav {
+  min-height:72px;
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:20px;
+}
+
+.logo {
+  font-size:23px;
+  font-weight:bold;
+  color:var(--accent);
+}
+
+.nav-links {
+  display:flex;
+  list-style:none;
+  gap:20px;
+  flex-wrap:wrap;
+}
+
+.nav-links a { color:var(--muted); font-size:14px; }
+.nav-links a:hover { color:var(--accent); }
+
+section { padding:80px 0; }
+
+.hero {
+  min-height:580px;
+  display:flex;
+  align-items:center;
+  background:
+    radial-gradient(circle at 85% 20%,#164b5055,transparent 30%),
+    radial-gradient(circle at 10% 90%,#244a7550,transparent 30%);
+}
+
+.eyebrow {
+  color:var(--accent);
+  letter-spacing:2px;
+  text-transform:uppercase;
+  font-size:13px;
+  font-weight:bold;
+}
+
+h1 {
+  font-size:clamp(40px,7vw,68px);
+  line-height:1.15;
+  margin:18px 0;
+}
+
+h1 span { color:var(--accent); }
+
+.hero p {
+  color:var(--muted);
+  font-size:18px;
+  max-width:720px;
+}
+
+.buttons {
+  display:flex;
+  flex-wrap:wrap;
+  gap:14px;
+  margin-top:30px;
+}
+
+.btn {
+  display:inline-block;
+  padding:12px 23px;
+  border-radius:8px;
+  background:var(--accent);
+  color:#081321;
+  font-weight:bold;
+}
+
+.btn.secondary {
+  background:transparent;
+  color:var(--text);
+  border:1px solid var(--border);
+}
+
+.section-title { font-size:32px; margin-bottom:12px; }
+
+.accent-line {
+  width:55px;
+  height:4px;
+  background:var(--accent);
+  margin:15px 0 25px;
+  border-radius:5px;
+}
+
+.intro { color:var(--muted); max-width:720px; margin-bottom:30px; }
+
+.card {
+  background:var(--card);
+  border:1px solid var(--border);
+  border-radius:14px;
+  padding:25px;
+}
+
+.card h3 { color:var(--accent); margin-bottom:10px; }
+.card p,.card li { color:var(--muted); }
+.card ul { padding-left:20px; margin-top:12px; }
+
+.grid {
+  display:grid;
+  grid-template-columns:repeat(3,1fr);
+  gap:18px;
+}
+
+.tags { display:flex; flex-wrap:wrap; gap:10px; }
+
+.tag {
+  padding:7px 12px;
+  border-radius:7px;
+  background:var(--card2);
+  border:1px solid var(--border);
+  font-size:14px;
+}
+
+.timeline { border-left:2px solid var(--accent); padding-left:25px; }
+
+.meta { color:var(--accent); font-size:14px; margin:6px 0 13px; }
+
+.contact {
+  background:linear-gradient(135deg,#122b40,#123d43);
+  text-align:center;
+  border:1px solid var(--border);
+  border-radius:16px;
+  padding:40px 25px;
+}
+
+.contact-links {
+  display:flex;
+  justify-content:center;
+  flex-wrap:wrap;
+  gap:22px;
+  margin-top:25px;
+}
+
+.contact-links a { color:var(--accent); }
+
+footer {
+  text-align:center;
+  padding:25px;
+  color:var(--muted);
+  border-top:1px solid var(--border);
+}
+
+@media(max-width:760px) {
+  nav { padding:15px 0; align-items:flex-start; flex-direction:column; }
+  .nav-links { gap:12px; }
+  .grid { grid-template-columns:1fr; }
+  section { padding:60px 0; }
+  .hero { min-height:520px; }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<div class="container">
+<nav>
+<a class="logo" href="#home">Tanzeel.</a>
+<ul class="nav-links">
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#experience">Experience</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#certifications">Certifications</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+</div>
+</header>
+
+<main>
+
+<section class="hero" id="home">
+<div class="container">
+<div class="eyebrow">Data Engineer | Snowflake Specialist</div>
+<h1>Hi, I'm <span>Md Tanzeel Atahar</span></h1>
+<p>
+Software Engineer 1 and Data Engineer with nearly 3 years of
+experience in Snowflake, SQL, Python, data processing and
+enterprise cloud data migration. Passionate about reliable
+data solutions and solving complex data challenges.
+</p>
+<div class="buttons">
+<a href="#contact" class="btn">Let's Connect</a>
+<a href="https://www.linkedin.com/in/tanzeel-atahar-903b66223/"
+target="_blank" rel="noopener" class="btn secondary">LinkedIn Profile</a>
+</div>
+</div>
+</section>
+
+<section id="about">
+<div class="container">
+<h2 class="section-title">About Me</h2>
+<div class="accent-line"></div>
+<div class="card">
+<p>
+I am a Data Engineer at Hexaware Technologies, working on
+enterprise cloud data migration activities. My experience
+includes Snowflake, SQL, Python, Oracle and data validation.
+</p>
+<br>
+<p>
+I support migration activities involving Snowflake database
+objects, SQL transformations, Airflow DAG generation and
+execution, and data quality validation using Python and
+Great Expectations.
+</p>
+<br>
+<p>
+I continuously focus on improving my technical skills and
+learning emerging cloud data engineering technologies.
+</p>
+</div>
+</div>
+</section>
+
+<section id="skills">
+<div class="container">
+<h2 class="section-title">Technical Skills</h2>
+<div class="accent-line"></div>
+<p class="intro">Technologies, platforms and tools I have worked with or gained practical exposure to.</p>
+
+<div class="grid">
+<div class="card">
+<h3>Database & Data</h3>
+<div class="tags">
+<span class="tag">Snowflake</span>
+<span class="tag">SQL</span>
+<span class="tag">Oracle</span>
+<span class="tag">ETL / ELT</span>
+<span class="tag">Data Modeling</span>
+</div>
+</div>
+
+<div class="card">
+<h3>Programming & Workflow</h3>
+<div class="tags">
+<span class="tag">Python</span>
+<span class="tag">Apache Airflow</span>
+<span class="tag">DAG Generation</span>
+<span class="tag">Data Processing</span>
+</div>
+</div>
+
+<div class="card">
+<h3>Cloud & Tools</h3>
+<div class="tags">
+<span class="tag">Azure</span>
+<span class="tag">Azure Data Factory</span>
+<span class="tag">Databricks</span>
+<span class="tag">GitHub</span>
+<span class="tag">IBM DataStage</span>
+<span class="tag">Great Expectations</span>
+<span class="tag">Data Harbor</span>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+<section id="experience">
+<div class="container">
+<h2 class="section-title">Professional Experience</h2>
+<div class="accent-line"></div>
+
+<div class="timeline">
+<div class="card">
+<h3>Software Engineer 1 | Data Engineer</h3>
+<div class="meta">Hexaware Technologies | January 2024 – Present</div>
+<p>Enterprise Cloud Data Migration Project</p>
+<ul>
+<li>Support enterprise data migration from Oracle-based systems to Snowflake.</li>
+<li>Work with Snowflake tables, views, schemas and database objects.</li>
+<li>Write and review SQL queries and transformation logic.</li>
+<li>Support Airflow DAG generation, execution and troubleshooting.</li>
+<li>Perform data validation using Python and Great Expectations.</li>
+<li>Work with STG and ADL data layers during migration activities.</li>
+<li>Collaborate through GitHub and code review workflows.</li>
+<li>Support UAT and production migration activities.</li>
+</ul>
+</div>
+</div>
+</div>
+</section>
+
+<section id="projects">
+<div class="container">
+<h2 class="section-title">Project Experience</h2>
+<div class="accent-line"></div>
+
+<div class="grid">
+<div class="card">
+<h3>Oracle to Snowflake Migration</h3>
+<p>
+Supporting enterprise cloud data migration, including SQL
+transformations, Snowflake database objects and migrated
+data validation.
+</p>
+</div>
+
+<div class="card">
+<h3>Data Quality & Validation</h3>
+<p>
+Working with Python and Great Expectations to perform
+data quality checks and validate migrated datasets.
+</p>
+</div>
+
+<div class="card">
+<h3>Airflow Workflow Support</h3>
+<p>
+Supporting DAG generation, workflow execution monitoring
+and troubleshooting as part of migration activities.
+</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="certifications">
+<div class="container">
+<h2 class="section-title">Certifications & Education</h2>
+<div class="accent-line"></div>
+
+<div class="grid">
+<div class="card">
+<h3>Certifications</h3>
+<ul>
+<li>SnowPro Core Certification</li>
+<li>Microsoft Azure Data Engineer Associate</li>
+<li>Databricks Certified Data Engineer Associate</li>
+<li>Claude Certified Developer</li>
+<li>Python Certified Entry-Level Programmer (PCEP)</li>
+<li>Microsoft Azure Fundamentals (AZ-900)</li>
+</ul>
+</div>
+
+<div class="card">
+<h3>Bachelor of Technology</h3>
+<div class="meta">IES College of Technology, Bhopal | 2019–2023</div>
+<p>Computer Science and Engineering</p>
+<p>CGPA: 9.2</p>
+</div>
+
+<div class="card">
+<h3>Intermediate</h3>
+<div class="meta">Akshyawat College, Mahua, Vaishali | 2018–2019</div>
+<p>Percentage: 72.4%</p>
+</div>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<div class="contact">
+<h2 class="section-title">Let's Connect</h2>
+<p class="intro" style="margin:0 auto;">
+Interested in Snowflake, data engineering and cloud data
+migration opportunities? Feel free to connect with me.
+</p>
+
+<div class="contact-links">
+<a href="mailto:mdtanzeela@gmail.com">Email Me</a>
+<a href="tel:+917482895034">+91 7482895034</a>
+<a href="https://www.linkedin.com/in/tanzeel-atahar-903b66223/"
+target="_blank" rel="noopener">LinkedIn</a>
+<a href="https://github.com/Tanzeel12345"
+target="_blank" rel="noopener">GitHub</a>
+</div>
+</div>
+</div>
+</section>
+
+</main>
+
+<footer>
+© 2026 Md Tanzeel Atahar. All rights reserved.
+</footer>
+
+</body>
+</html>
